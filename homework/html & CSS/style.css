@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(227, 196, 193);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Mogra", system-ui;
+    color: rgb(10, 168, 115);
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(115, 1, 13);
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(0, 0, 138);
+}
