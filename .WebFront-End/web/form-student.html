@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Student</title>
+</head>
+<body bgcolor="#88B39C">
+    <table border="0" cellspacing="0" width="100%" cellpadding="5">
+        <tr align="center">
+            <td>
+                <h1>Student Registration Form</h1>
+            </td>
+        </tr>
+    </table>
+    <form action="#">
+        <table cellpadding="5" width="50%">
+            <tr align="left">
+                <td>
+                    <label for="Studentname">Student Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" required> - 
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr align="left">
+                <td>
+                    <label for="date">Date of birth: </label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr align="left">
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="css">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobile">Mobile phone: </label>
+                </td>
+                <td>
+                    <input type="text" id="mobile" name="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email: </label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password: </label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="university">University: </label>
+                </td>
+                <td>
+                    <select name="university" id="university">
+                        <option value="Rupp">Royal University of Phnom Penh</option>
+                        <option value="ITC">Insitute of Technology of Cambodia</option>
+                        <option value="NUM">Nationl University of Management</option>
+                        <option value="UP">University of Puthisastra</option>
+                        <option value="SI">SETEC Insitute</option>
+                        <option value="Paragon">Paragon International University</option>
+                        <option value="CADT">Cambodia Academy of Digital Technology</option>
+                        <option value="ACLEDA">ACLEDA University of Business</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="department">Department:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="CSE" name="CSE">
+                    <label for="CSE">CSE</label>
+                    <input type="checkbox" id="IT" name="IT">
+                    <label for="IT">IT</label>
+                    <input type="checkbox" id="ECE" name="ECE">
+                    <label for="ECE">ECE</label>
+                    <input type="checkbox" id="DSE" name="DSE">
+                    <label for="DSE">DSE</label>
+                    <input type="checkbox" id="IBM" name="IBM">
+                    <label for="IBM">IBM</label>
+                    <input type="checkbox" id="Civil" name="Civil">
+                    <label for="Civil">Civil</label>
+                    <input type="checkbox" id="Math" name="Math">
+                    <label for="Math">Math</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo">Student Photo: </label>
+                </td>
+                <td>
+                    <input type="file" id="file" name="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City: </label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address: </label>
+                </td>
+                <td>
+                    <textarea name="area" id="area" cols="40" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <button><big>Register</big></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
