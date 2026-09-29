@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ផ្ទាល់ខ្លួន - វេបសាយគំរូ</title>
+    <style>
+        /* កូដ CSS ទូទៅ */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Khmer OS Siemreap', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; }
+
+        /* Container ប្រើ <div> ដើម្បីទប់ទំហំកណ្តាល */
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header & Nav */
+        header { background: #2c3e50; color: #fff; padding: 15px 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        header .container { display: flex; justify-content: space-between; align-items: center; }
+        nav ul { list-style: none; display: flex; gap: 20px; }
+        nav a { color: #fff; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #3498db; }
+
+        /* Hero Section */
+        #hero { background: linear-gradient(135deg, #3498db, #2c3e50); color: white; padding: 120px 0 80px 0; text-align: center; }
+        #hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        #hero p { font-size: 1.2rem; margin-bottom: 20px; }
+        
+        .btn { display: inline-block; background: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .btn:hover { background: #c0392b; }
+
+        /* Sections ទូទៅ */
+        section { padding: 60px 0; }
+        section h2 { text-align: center; margin-bottom: 40px; color: #2c3e50; font-size: 2rem; }
+
+        /* Skills & About */
+        .about-content { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+
+        /* Projects Grid (ប្រើ <div>) */
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .project-card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-top: 4px solid #3498db; }
+        .project-card h3 { margin-bottom: 10px; color: #2c3e50; }
+
+        /* Footer */
+        footer { background: #1a252f; color: white; text-align: center; padding: 30px 0; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <!-- ក្បាលទំព័រ និងម៉ឺនុយ -->
+    <header>
+        <div class="container">
+            <h3>MyPortfolio</h3>
+            <nav>
+                <ul>
+                    <li><a href="#hero">ទំព័រដើម</a></li>
+                    <li><a href="#about">អំពីខ្ញុំ</a></li>
+                    <li><a href="#projects">ស្នាដៃ</a></li>
+                    <li><a href="#contact">ទំនាក់ទំនង</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ផ្នែកស្វាគមន៍ (Hero Section) -->
+    <section id="hero">
+        <div class="container">
+            <h1>សួស្តី! ខ្ញុំបាទ/នាងខ្ញុំ គឺ [ឈ្មោះរបស់អ្នក]</h1>
+            <p>ជាអ្នកអភិវឌ្ឍន៍វេបសាយ (Web Developer) និងជាអ្នកចូលចិត្តរៀនសូត្របច្ចេកវិទ្យាថ្មីៗ</p>
+            <a href="#projects" class="btn">មើលស្នាដៃរបស់ខ្ញុំ</a>
+        </div>
+    </section>
+
+    <!-- ផ្នែកអំពីខ្ញុំ -->
+    <section id="about">
+        <div class="container">
+            <h2>អំពីខ្ញុំ</h2>
+            <div class="about-content">
+                <p>ខ្ញុំមានបទពិសោធន៍ក្នុងការបង្កើតគេហទំព័រដោយប្រើប្រាស់ HTML, CSS និង JavaScript។ ខ្ញុំស្រលាញ់ការបង្កើតប្លង់វេបសាយដែលមានភាពទាក់ទាញ ងាយស្រួលប្រើប្រាស់ និងមានល្បឿនលឿន។</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ផ្នែកស្នាដៃ (Projects) -->
+    <section id="projects">
+        <div class="container">
+            <h2>ស្នាដៃគម្រោងកន្លងមក</h2>
+            
+            <!-- ប្រើ <div> ជា Grid Layout Wrapper -->
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <h3>វេបសាយលក់ទំនិញអនឡាញ</h3>
+                    <p>បង្កើតឡើងដោយប្រើប្រាស់ HTML និង CSS Grid សម្រាប់ដាក់បង្ហាញផលិតផលទូទៅ។</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>ប្លុកផ្ទាល់ខ្លួន (Blog)</h3>
+                    <p>វេបសាយសម្រាប់សរសេរអត្ថបទចែករំលែកចំណេះដឹងផ្នែកកូដកម្ម និងបច្ចេកវិទ្យា។</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>ប្រព័ន្ធគ្រប់គ្រងភារកិច្ច (To-Do List)</h3>
+                    <p>កម្មវិធីវេបសាយខ្នាតតូចជួយសម្រួលដល់ការកត់ត្រាការងារប្រចាំថ្ងៃ។</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- បាតទំព័រ និងទំនាក់ទំនង -->
+    <footer id="contact">
+        <div class="container">
+            <h3>ទំនាក់ទំនងមកខ្ញុំ</h3>
+            <p>Email: your.email@example.com | Telegram: @yourusername</p>
+            <p style="margin-top: 20px; font-size: 0.9rem; color: #aaa;">&copy; 2026 [ឈ្មោះរបស់អ្នក]. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+        </div>
+    </footer>
+
+</body>
+</html>
