@@ -10,7 +10,7 @@
 .avatar{
     width: 80px;
     height: 80px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     border: 3px solid #2563eb;
     margin-bottom: 15px;
 }
@@ -20,11 +20,12 @@
     padding: 4px 12px;
     border-radius: 20px;
 }
-.action-btn{
+/* .action-btn{
     background-color: #2563eb;
     color: white;
     padding: 10px 24px;
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
-}
+    cursor: pointer;
+} */
