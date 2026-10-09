@@ -1,0 +1,102 @@
+.banner-container {
+  position: relative;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  font-family: "Kantumruy Pro", sans-serif;
+  max-width: 1050px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 0;
+}
+
+/* Top Right Badge */
+.top-discount-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ea580c;
+  color: #ffffff;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.banner-column {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.banner-left {
+  width: 55%;
+  padding-right: 20px;
+}
+
+.banner-right {
+  width: 45%;
+  position: relative;
+}
+
+.banner-left .sub-heading {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 12px;
+}
+
+.banner-left .main-heading {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.banner-left .description {
+  font-size: 13px;
+  opacity: 0.9;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.cta-button {
+  background-color: #f59e0b;
+  color: #111827;
+  border: none;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.yellow-card {
+  background-color: #ffd700;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.card-floating-badge {
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+  background-color: #0f172a;
+  color: #fbbf24;
+  padding: 8px 14px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
