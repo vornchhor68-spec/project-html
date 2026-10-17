@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>បណ្ណាល័យយើងខ្ញុំ - វេបសាយគំរូ</title>
+    <style>
+      /* CSS រចនាប័ទ្មទូទៅ */
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Khmer OS Siemreap", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f6f8;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      /* Container ប្រើ <div> ដើម្បីទប់ទទឹងនិងដាក់កណ្តាល */
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Header & Nav */
+      header {
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 20px 0;
+      }
+      header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #3498db;
+      }
+
+      /* Main Content */
+      main {
+        padding: 40px 0;
+      }
+
+      .hero-section {
+        background: #3498db;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+
+      /* ប្រើ <div> ជា Grid Wrapper សម្រាប់បែងចែកកាតផលិតផល */
+      .book-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      /* កាតនីមួយៗប្រើ <div> */
+      .book-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .book-card h3 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+      }
+      .btn {
+        display: inline-block;
+        background: #27ae60;
+        color: white;
+        padding: 8px 15px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 15px;
+      }
+      .btn:hover {
+        background: #219653;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #1a252f;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ប្រើ Semantic Tag សម្រាប់ក្បាលទំព័រ -->
+    <header>
+      <div class="container">
+        <h1>បណ្ណាល័យខេមរៈ</h1>
+        <!-- ប្រើ Semantic Tag សម្រាប់ម៉ឺនុយ -->
+        <nav>
+          <ul>
+            <li><a href="#">ទំព័រដើម</a></li>
+            <li><a href="#">សៀវភៅ</a></li>
+            <li><a href="#">អំពីយើង</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ប្រើ Semantic Tag សម្រាប់មាតិកាស្នូល -->
+    <main class="container">
+      <!-- ផ្នែកស្វាគមន៍ (ប្រើ Semantic section និង <div> ខាងក្នុង) -->
+      <section class="hero-section">
+        <h2>ស្វាគមន៍មកកាន់ហាងសៀវភៅអនឡាញ</h2>
+        <p>ស្វែងរកសៀវភៅចំណេះដឹង និងប្រលោមលោកថ្មីៗជាច្រើននៅទីនេះ!</p>
+      </section>
+
+      <!-- ផ្នែកបញ្ជីសៀវភៅ -->
+      <section>
+        <h2>សៀវភៅលក់ដាច់បំផុត</h2>
+
+        <!-- ប្រើ <div> ជា Layout Wrapper សម្រាប់จัด Grid -->
+        <div class="book-grid">
+          <!-- កាតទី ១ -->
+          <div class="book-card">
+            <h3>គន្លឹះសរសេរកូដ</h3>
+            <p>រៀនសូត្រពីមូលដ្ឋានគ្រឹះ HTML និង CSS យ៉ាងងាយយល់។</p>
+            <a href="#" class="btn">ទិញឥឡូវនេះ</a>
+          </div>
+
+          <!-- កាតទី ២ -->
+          <div class="book-card">
+            <h3>សិល្បៈនៃការនិយាយ</h3>
+            <p>របៀបទំនាក់ទំនង និងទាក់ទាញមនុស្សជុំវិញខ្លួន។</p>
+            <a href="#" class="btn">ទិញឥឡូវនេះ</a>
+          </div>
+
+          <!-- កាតទី ៣ -->
+          <div class="book-card">
+            <h3>ការគ្រប់គ្រងហិរញ្ញវត្ថុ</h3>
+            <p>គន្លឹះសន្សំប្រាក់ និងបង្កើតទ្រព្យសម្បត្តិផ្ទាល់ខ្លួន។</p>
+            <a href="#" class="btn">ទិញឥឡូវនេះ</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ប្រើ Semantic Tag សម្រាប់បាតទំព័រ -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 បណ្ណាល័យខេមរៈ។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+      </div>
+    </footer>
+  </body>
+</html>

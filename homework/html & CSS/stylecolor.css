@@ -1,0 +1,44 @@
+.hero-banner {
+    background: linear-gradient(to right, #4f46e5, #06b6d4);
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+.hero-banner2 {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/073/218/196/small_2x/wooden-blocks-spelling-html-on-a-gray-surface-representing-web-development-coding-and-the-fundamental-building-blocks-of-website-creation-in-a-minimalist-and-clean-studio-setting-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+h1 {
+    color: rgb(17, 23, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.text1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #b02000;
+    line-height: 1.6;
+}
+.text2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(94, 44, 53, 0.8);
+    line-height: 1.6;
+}
+p{
+    text-align: center;
+    color: #b02000;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
