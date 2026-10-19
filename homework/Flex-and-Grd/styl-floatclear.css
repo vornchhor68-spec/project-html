@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(176, 172, 172);
+  font-family: "Kreon", serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 10px;
+}
+img {
+  float: left;
+  width: 260px;
+  height: 180px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+h2{
+    margin-top: 20px;
+}
+.contant{
+    background-color: azure;
+    border: 3px solid green;
+}
+.clear-fix-container.contant::after{
+    content: "";
+    clear: both;
+    overflow: auto;
+    display: table;
+}
+.child1{
+    float: left;
+}
+.child2{
+    float: right;
+}
