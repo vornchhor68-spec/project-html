@@ -28,7 +28,7 @@ h2{
     content: "";
     clear: both;
     overflow: auto;
-    display: table;
+    display: block;
 }
 .child1{
     float: left;
