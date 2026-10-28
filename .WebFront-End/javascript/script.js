@@ -24,6 +24,31 @@
 // let e = null;
 // console.log(typeof e);
 
-let obj1 = { val: 50 };
-let obj2 = obj1;
-obj2.val = 100;
+// let obj1 = { val: 50 };
+// let obj2 = obj1;
+// obj2.val = 100;
+
+// let lightMode = false;
+// lightMode = !lightMode;
+
+// console.log(lightMode);
+
+const vipCumstomer = true;
+const weeken = true;
+const price = 50;
+
+if(vipCumstomer || weeken && price > 50){
+    console.log("can Discount");
+}
+else{
+    console.log("can't");
+}
+// const canDiscount = vipCumstomer || price && weeken;
+// console.log("Cumstomers can discount!", canDiscount);
+
+const itemData = "Delever";
+switch(itemData){
+    case "Peding": 
+    console.log("None");
+    break;
+}
